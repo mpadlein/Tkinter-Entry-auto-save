@@ -1,0 +1,1 @@
+A custom entry widget to cache user input
