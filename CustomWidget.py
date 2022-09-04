@@ -1,10 +1,12 @@
 import os
 import tkinter as tk
 
+# TODO: change your cache folder here
 ENTRIES_CACHE_FOLDER = os.path.join(os.getcwd(), 'entries-cache')
 
 class EntryAutoSave(tk.Entry): 
     def __init__(self, name=None, *args, **kwargs) -> None:
+        # TODO: change entry default kwargs here
         default_kwargs = {
             'relief': tk.SOLID,
             'justify': tk.CENTER,
